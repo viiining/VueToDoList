@@ -23,6 +23,7 @@ section {
 .doneContainer h1,
 .delContainer h1 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   color: navy;
   font-size: 50px;
