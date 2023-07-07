@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "PT Serif", serif;
+}
+body {
+  background-color: aliceblue;
+}
+section {
+  padding: 50px;
+}
+.toDoListContainer,
+.doneContainer,
+.delContainer {
+  background-color: lavender;
+  width: 50%;
+  margin: 50px auto 50px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.toDoListContainer h1,
+.doneContainer h1,
+.delContainer h1 {
+  display: flex;
+  align-items: center;
+  color: navy;
+  font-size: 50px;
+}
+#listCheckIcon,
+#checked,
+#delIcon {
+  margin-right: 30px;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  margin-top: 30px;
+  border: 5px solid navy;
+  border-radius: 10px;
+}
+#taskInput {
+  outline: none;
+  background-color: transparent;
+  border-color: transparent;
+  flex: 1;
+  padding: 10px;
+  font-size: 20px;
+}
+#addBtn {
+  outline: none;
+  width: 100px;
+  border: 3px solid navy;
+  border-radius: 5px;
+  background-color: navy;
+  font-size: 20px;
+  font-weight: bolder;
+  color: aliceblue;
+  padding: 10px;
+}
+#addBtn:hover {
+  background-color: lavender;
+  border-color: lavender;
+  color: navy;
+  cursor: pointer;
+}
+#taskListContainer,
+#delListContainer {
+  margin: 30px 0 0 10px;
+}
+#item,
+#delTask {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: navy;
+  font-size: 22px;
+  margin: 30px 0;
+  user-select: none;
+}
+#doneTask {
+  list-style: none;
+  color: navy;
+  font-size: 20px;
+  margin: 30px 0;
+  user-select: none;
+}
+.checkBtn {
+  transform: scale(1.5);
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* applied when the todo item is checked */
+.checked {
+  text-decoration: line-through;
+}
+#delBtn {
+  margin-left: auto;
+  color: navy;
+}
+#delBtn:hover {
+  color: red;
+  cursor: pointer;
+}
+#addbackBtn {
+  outline: none;
+  width: fit-content;
+  border: 3px solid navy;
+  border-radius: 5px;
+  background-color: navy;
+  font-size: 14px;
+  font-weight: bolder;
+  color: aliceblue;
+  padding: 5px;
+  margin-left: auto;
+}
