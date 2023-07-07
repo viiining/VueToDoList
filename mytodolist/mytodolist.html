@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=PT+Serif:wght@700&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/1e504e0816.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mytodolist.css" />
+  </head>
+  <body>
+    <section>
+      <div class="toDoListContainer">
+        <h1>
+          <i class="fa-solid fa-list-check" id="listCheckIcon"></i>
+          To Do List
+        </h1>
+        <div class="inputContainer">
+          <input type="text" id="taskInput" placeholder="Add your task here!" />
+          <button id="addBtn">Add</button>
+        </div>
+        <ul id="taskListContainer">
+          <!-- <li id="item" data-id="item.id">
+            <input type="checkbox" class="checkBtn" />
+            task 1
+            <i class="fa-solid fa-trash-can" id="delBtn"></i>
+          </li> -->
+        </ul>
+      </div>
+    </section>
+    <script src="mytodolist.js"></script>
+  </body>
+</html>
