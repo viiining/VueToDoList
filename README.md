@@ -1,4 +1,4 @@
-# My to do list with Vue.js
+# Todo list with Vue.js
 
 ## Here is a simple to do list
 
